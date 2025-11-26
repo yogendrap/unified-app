@@ -1,0 +1,23 @@
+# ------------------------------------------
+# React + Node + Docker .gitignore Template
+# ------------------------------------------
+
+# 🧩 Node modules
+**/node_modules/
+
+# 🧱 Build output
+frontend/build/
+frontend/dist/
+frontend/.cache/
+
+# 🔥 Local environment files
+frontend/.env
+
+# 🐳 Docker
+Dockerfile.local
+*.log
+**/logs/
+.docker/
+.dockerignore
+# Local Netlify folder
+.netlify
